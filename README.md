@@ -1,20 +1,21 @@
 # RAG-Application-using-LangChain
 
 Some files are not included in this repo 
-1. create your own .env file and store the given below api keys.
-"""
+### 1. create your own .env file and store the given below api keys.
+```bash
   GEMINI_API_KEY = 
   GROQ_API_KEY = 
   PINECONE_INDEX_NAME =
   PINECONE_API_KEY = 
   PINECONE_ENVIRONMENT =
 
-"""
+```
 
-2. create a folder naming pdf_data
-   now insert any pdf's data you like , as of me i kept medical data.
-   it is not important to maintain any proper structure in the pdf's
-   if it is a pdf then it is enough.
+### 2. create a folder naming pdf_data
+   
+   * now insert any pdf's data you like , as of me i kept medical data.
+   * it is not important to maintain any proper structure in the pdf's
+   * if it is a pdf then it is enough.
 
 
 
