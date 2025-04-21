@@ -35,7 +35,7 @@ source .venv/bin/activate
 
 * for windows
 ```bash
-source .venv/bin/activate
+.venv/bin/activate
 
 ```
 
