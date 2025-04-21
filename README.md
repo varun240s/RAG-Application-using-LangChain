@@ -1,5 +1,7 @@
 # RAG-Application-using-LangChain
 
+## While using this RAG application i suggest it is better if you use python3.10 which is a very stable and supporting version.
+
 Some files are not included in this repo 
 ### 1. create your own .env file and store the given below api keys.
 ```bash
@@ -17,9 +19,36 @@ Some files are not included in this repo
    * it is not important to maintain any proper structure in the pdf's
    * if it is a pdf then it is enough.
 
+### 3. create .venv
+* run this in the powershell in your existing folder where the entire code is present.
+* this is the cd path you should be having
+  ../RAG-Application-Using-LangChain
+```bash
 
+python -m venv .venv
 
+```
+* for mac
+```bash
+source .venv/bin/activate
+```
 
+* for windows
+```bash
+source .venv/bin/activate
+
+```
+
+* for windows in powershell
+```bash
+.venv\Scripts\Activate.ps1
+
+```
+
+* for windows in CMD
+```bash
+.venv\Scripts\activate.bat
+```
 
 ## License
 
