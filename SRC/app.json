@@ -1,0 +1,30 @@
+{
+    "name": "Medical_Chat_Bot",
+    "env": {
+      "GEMINI_API_KEY": {
+        "description": "Add your GEMINI_API_KEY",
+        "value": ""
+      },
+      "GROQ_API_KEY": {
+        "description": "Add your GROQ_API_KEY",
+        "value": ""
+      },
+      "PINECONE_INDEX_NAME": {
+        "description": "Add your PINECONE_INDEX_NAME",
+        "value": ""
+      },
+      "PINECONE_API_KEY": {
+        "description": "Add your PINECONE_API_KEY.",
+        "value": ""
+      },
+      "PINECONE_ENVIRONMENT": {
+        "description": "Add your PINECONE_ENVIRONMENT.",
+        "value": ""
+      }
+    },
+    "buildpacks": [
+      {
+        "url": "heroku/python"
+      }
+    ]
+ }
