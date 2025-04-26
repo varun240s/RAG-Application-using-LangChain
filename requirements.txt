@@ -1,4 +1,8 @@
-# Essential runtime libraries
+
+setuptools>=60.0.0
+cmake>=3.26
+
+
 python-dotenv>=1.0.0
 pinecone-client==3.2.2
 streamlit
@@ -11,8 +15,10 @@ pypdf>=3.15.1
 tiktoken>=0.5.1
 streamlit-authenticator==0.2.2
 pyyaml>=6.0
+onnx>=1.14.0
 
-# LangChain packages
+
+
 langchain
 langchain-core
 langchain-groq
