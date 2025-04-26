@@ -1,18 +1,6 @@
-
-python-dotenv>=1.0.0
-pinecone-client==3.2.2
-
-
-
-streamlit
-sentence-transformers>=2.2.2
-transformers
-torch
-unstructured[all-docs]
-pdf2image>=1.16.3
-pypdf>=3.15.1
-tiktoken>=0.5.1# Use the PyTorch CPU-only wheel index and pin a CPU-only build
+# Use the PyTorch CPU-only wheel index
 -f https://download.pytorch.org/whl/torch_stable.html
+
 torch==2.6.0+cpu
 
 # Essential runtime libraries
@@ -25,25 +13,12 @@ pdf2image>=1.16.3
 pypdf>=3.15.1
 tiktoken>=0.5.1
 streamlit-authenticator>=0.2.2
-
-# Utilities and frameworks
 pyyaml>=6.0
+
+# LangChain packages
 langchain
 langchain-core
 langchain-groq
 langchain-huggingface
 langchain-text-splitters
 pydantic>=2.0
-
-streamlit-authenticator==0.2.2
-pyyaml>=6.0
-
-
-
-langchain
-langchain-core
-langchain-groq
-langchain-huggingface
-langchain-text-splitters
-pydantic
-
